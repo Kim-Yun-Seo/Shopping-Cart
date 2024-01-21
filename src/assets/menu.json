@@ -1,0 +1,16 @@
+[
+  {
+    "name": "아메리카노",
+    "id": 1,
+    "category" : "COFFEE",
+    "price": 3800,
+    "img": ".png"
+  },
+  {
+    "name": "라떼",
+    "id": 1,
+    "category" : "COFFEE",
+    "price": 3900,
+    "img": ".png"
+  }
+]
