@@ -4,13 +4,27 @@
     "id": 1,
     "category" : "COFFEE",
     "price": 3800,
-    "img": ".png"
+    "img": "https://ediya.com/files/menu/IMG_1671581786293.png"
   },
   {
     "name": "라떼",
-    "id": 1,
+    "id": 2,
     "category" : "COFFEE",
     "price": 3900,
-    "img": ".png"
+    "img": "https://ediya.com/files/menu/IMG_1671582134737.png"
+  },
+  {
+    "name": "아메리카노",
+    "id": 3,
+    "category" : "COFFEE",
+    "price": 3800,
+    "img": "https://ediya.com/files/menu/IMG_1671581786293.png"
+  },
+  {
+    "name": "라떼",
+    "id": 4,
+    "category" : "COFFEE",
+    "price": 3900,
+    "img": "https://ediya.com/files/menu/IMG_1671582134737.png"
   }
 ]

@@ -1,8 +1,14 @@
 import { useNavigate } from 'react-router-dom';
 
 import styles from '../assets/shopping.module.css'
+import {MenuSet} from "./props/menuSet.tsx";
+import {Category} from "./props/category.tsx";
+import menu from '../assets/menu.json'
+import category from '../assets/category.json'
 
 export const Shopping = () => {
+    const menuList = menu.map(name => (<MenuSet name={name.name} price={name.price} img={name.img}/>))
+    const categoryList = category.map(name => (<Category name={name}/>))
     return (
         <>
             <div>
@@ -12,33 +18,16 @@ export const Shopping = () => {
                 <div className={styles.ediyaBar}>
                     EDIYA COFFEE
                 </div>
-                <div className={styles.buttons}>
-                    <button>
-                        COFFEE
-                    </button>
-                    <button>
-                        배버리지
-                    </button>
-                    <button>
-                        블랜딩 티
-                    </button>
-                    <button>
-                        에이드
-                    </button>
+                <div className={styles.category}>
+                    {categoryList}
                 </div>
+
+                <div className={styles.menu}>
+                    {menuList}
+                </div>
+                <hr style={{backgroundColor:"#062DFB", height: "1px"}}/>
                 <div>
-                    <button>
-                        쉐이크
-                    </button>
-                    <button>
-                        플랫치노
-                    </button>
-                    <button>
-                        버블 밀크티
-                    </button>
-                    <button>
-                        베이커리
-                    </button>
+                    ssll
                 </div>
             </div>
         </>
